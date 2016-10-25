@@ -27,3 +27,40 @@ Run `gulp build` for building and `gulp serve` for preview.
 ## Testing
 
 Running `npm test` will run the unit tests with karma.
+L-06@L-06-HP MINGW64 ~
+$ cd desktop
+
+L-06@L-06-HP MINGW64 ~/desktop
+$ cd nancy
+
+L-06@L-06-HP MINGW64 ~/desktop/nancy
+$ cd gju-har-int-2016-006n
+
+L-06@L-06-HP MINGW64 ~/desktop/nancy/gju-har-int-2016-006n (master)
+$ cd readme.md
+bash: cd: readme.md: Not a directory
+
+L-06@L-06-HP MINGW64 ~/desktop/nancy/gju-har-int-2016-006n (master)
+$ ^C
+
+L-06@L-06-HP MINGW64 ~/desktop/nancy/gju-har-int-2016-006n (master)
+$ git clone https://github.com/nancygrover91/gju-har-int-2016-006n.git
+Cloning into 'gju-har-int-2016-006n'...
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+
+L-06@L-06-HP MINGW64 ~/desktop/nancy/gju-har-int-2016-006n (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        gju-har-int-2016-006n/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+L-06@L-06-HP MINGW64 ~/desktop/nancy/gju-har-int-2016-006n (master)
+$
